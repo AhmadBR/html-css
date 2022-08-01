@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        nav{
+            background-color: rgb(133, 130, 130);
+            padding: 3px;
+            box-shadow: 4px 1px 3px 1px rgba(0, 0, 0, 0.406);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+            
+        }
+        nav > a:hover{
+            color: red;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.422);
+        }
+        article > aside{
+            background-color: rgb(100, 168, 100);
+        }
+        article{
+            background-color: lightgreen;
+            padding: 2px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: justify;
+            margin: auto;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="@">Inico</a>
+            <a href="http://">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticías Sobre Comida</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nam provident perspiciatis nesciunt recusandae adipisci vero error, voluptatem inventore maxime nisi deleniti! Vero facilis, libero quibusdam ullam quae nemo at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eos totam, odit qui aperiam pariatur fuga quia expedita repellendus aliquid voluptatem illo dignissimos iure maiores eligendi quam? Sint, consectetur asperiores!</p>
+                <aside>
+                    <p>Artigo Escrito por Lucas</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Ahmad</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
